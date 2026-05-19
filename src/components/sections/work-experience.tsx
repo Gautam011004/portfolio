@@ -13,6 +13,34 @@ export function WorkExperienceSection() {
                             <CardHeader>
                                 <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4">
                                     <div className="flex-1">
+                                        <CardTitle className="text-lg sm:text-xl">Backend Developer</CardTitle>
+                                        <CardDescription className="text-base">Momentus</CardDescription>
+                                    </div>
+                                    <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                                        <Calendar className="h-4 w-4" />
+                                        <span>Feb 2026 - Present</span>
+                                    </div>
+                                </div>
+                            </CardHeader>
+                            <CardContent>
+                                <ul className="space-y-2 text-sm sm:text-base mb-4">
+                                    <li>• Built a marketing memory layer platform enabling brands to store, visualize, and manage brand memory through an interactive web dashboard.</li>
+                                    <li>• Developed in-dashboard editing capabilities allowing direct modifications to the memory layer without requiring external tools.</li>
+                                    <li>• Implemented memory extraction pipelines supporting multiple file formats including PDFs, images, and documents for automated brand knowledge ingestion.</li>
+                                </ul>
+                                <div className="flex flex-wrap gap-2">
+                                    <Badge variant="outline">Python</Badge>
+                                    <Badge variant="outline">FastAPI</Badge>
+                                    <Badge variant="outline">TypeScript</Badge>
+                                    <Badge variant="outline">Next.js</Badge>
+                                    <Badge variant="outline">Tailwind CSS</Badge>
+                                </div>
+                            </CardContent>
+                        </Card>
+                        <Card>
+                            <CardHeader>
+                                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4">
+                                    <div className="flex-1">
                                         <CardTitle className="text-lg sm:text-xl">Developer Intern</CardTitle>
                                         <CardDescription className="text-base">Reliance Industries</CardDescription>
                                     </div>
